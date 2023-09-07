@@ -20,10 +20,7 @@
     "styled-components": "^5.3.11",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://pikastunner.github.io/whos_on_campus",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,8 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.0.0"
   }
 }

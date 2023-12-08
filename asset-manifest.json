@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/whos_on_campus/whos_on_campus/static/css/main.38a6968a.css",
-    "main.js": "/whos_on_campus/whos_on_campus/static/js/main.784dd327.js",
-    "static/media/fa-solid-900.ttf": "/whos_on_campus/whos_on_campus/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
-    "static/media/friend1.png": "/whos_on_campus/whos_on_campus/static/media/friend1.1cba5d60bd53dfefe3d6.png",
-    "static/media/fa-brands-400.ttf": "/whos_on_campus/whos_on_campus/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
-    "static/media/fa-solid-900.woff2": "/whos_on_campus/whos_on_campus/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
-    "static/media/friend3.png": "/whos_on_campus/whos_on_campus/static/media/friend3.099f7c1717991944eb52.png",
-    "static/media/friend5.png": "/whos_on_campus/whos_on_campus/static/media/friend5.3110a34ac257a2699796.png",
-    "static/media/friend2.png": "/whos_on_campus/whos_on_campus/static/media/friend2.9c63b74eb531c54c4838.png",
-    "static/media/logo.png": "/whos_on_campus/whos_on_campus/static/media/logo.8e86803c279b645db86e.png",
-    "static/media/friend4.png": "/whos_on_campus/whos_on_campus/static/media/friend4.2d44a2fd5518db5648aa.png",
-    "static/media/fa-brands-400.woff2": "/whos_on_campus/whos_on_campus/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
-    "static/media/friend6.png": "/whos_on_campus/whos_on_campus/static/media/friend6.f64e02546a9cced5e56f.png",
-    "static/media/fa-regular-400.ttf": "/whos_on_campus/whos_on_campus/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
-    "static/media/fa-regular-400.woff2": "/whos_on_campus/whos_on_campus/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
-    "static/media/fa-v4compatibility.ttf": "/whos_on_campus/whos_on_campus/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
-    "static/media/fa-v4compatibility.woff2": "/whos_on_campus/whos_on_campus/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
-    "index.html": "/whos_on_campus/whos_on_campus/index.html",
-    "main.38a6968a.css.map": "/whos_on_campus/whos_on_campus/static/css/main.38a6968a.css.map",
-    "main.784dd327.js.map": "/whos_on_campus/whos_on_campus/static/js/main.784dd327.js.map"
+    "main.css": "/whos_on_campus/static/css/main.b6723a01.css",
+    "main.js": "/whos_on_campus/static/js/main.ad2943a1.js",
+    "static/media/fa-solid-900.ttf": "/whos_on_campus/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
+    "static/media/friend1.png": "/whos_on_campus/static/media/friend1.1cba5d60bd53dfefe3d6.png",
+    "static/media/fa-brands-400.ttf": "/whos_on_campus/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/fa-solid-900.woff2": "/whos_on_campus/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/friend3.png": "/whos_on_campus/static/media/friend3.099f7c1717991944eb52.png",
+    "static/media/friend5.png": "/whos_on_campus/static/media/friend5.3110a34ac257a2699796.png",
+    "static/media/friend2.png": "/whos_on_campus/static/media/friend2.9c63b74eb531c54c4838.png",
+    "static/media/logo.png": "/whos_on_campus/static/media/logo.8e86803c279b645db86e.png",
+    "static/media/friend4.png": "/whos_on_campus/static/media/friend4.2d44a2fd5518db5648aa.png",
+    "static/media/fa-brands-400.woff2": "/whos_on_campus/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/friend6.png": "/whos_on_campus/static/media/friend6.f64e02546a9cced5e56f.png",
+    "static/media/fa-regular-400.ttf": "/whos_on_campus/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/fa-regular-400.woff2": "/whos_on_campus/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
+    "static/media/fa-v4compatibility.ttf": "/whos_on_campus/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/fa-v4compatibility.woff2": "/whos_on_campus/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
+    "index.html": "/whos_on_campus/index.html",
+    "main.b6723a01.css.map": "/whos_on_campus/static/css/main.b6723a01.css.map",
+    "main.ad2943a1.js.map": "/whos_on_campus/static/js/main.ad2943a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.38a6968a.css",
-    "static/js/main.784dd327.js"
+    "static/css/main.b6723a01.css",
+    "static/js/main.ad2943a1.js"
   ]
 }

@@ -10,7 +10,7 @@ const HomePage = () => {
   const { user } = location.state || {}; // Access the user object from location state
   const navigate = useNavigate();
   const abc = () => {
-    navigate('/profile', { state: { user } });
+    navigate('/whos_on_campus/profile', { state: { user } });
   }
   //          <Link to={{ pathname: '/profile', state: { user } }}>Profile</Link>
 
@@ -20,14 +20,14 @@ const HomePage = () => {
         <title>Map | Who's On Campus?</title>
       </Helmet>
       <nav className="navbar">
-        <Link to='/'  style={{ textDecoration: 'none', color: '#fff' }}>
+        <Link to='/whos_on_campus'  style={{ textDecoration: 'none', color: '#fff' }}>
           <h1 className="logo">Who's On Campus?</h1>
         </Link>
         <ul className="nav-links">
           <li>
           <a className='hoverable-link' onClick={abc}>Profile</a>
           </li> {/* Pass user object as state */}
-          <li><Link to="/login">Logout</Link></li>
+          <li><Link to="/whos_on_campus/login">Logout</Link></li>
         </ul>
       </nav>
       <div className="home-container">

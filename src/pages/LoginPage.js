@@ -24,7 +24,7 @@ const LoginPage = () => {
     if (foundUser) {
       setUser(foundUser);
       console.log('Logged in as:', foundUser.email);
-      navigate('/home', { state: { user: foundUser } });
+      navigate('/whos_on_campus/home', { state: { user: foundUser } });
     } else {
       console.log('Invalid credentials');
     }
@@ -38,11 +38,11 @@ const LoginPage = () => {
         <title>Login | Who's On Campus?</title>
       </Helmet>
       <nav className="navbar">
-        <Link to='/'  style={{ textDecoration: 'none', color: '#fff' }}>
+        <Link to='/whos_on_campus'  style={{ textDecoration: 'none', color: '#fff' }}>
           <h1 className="logo">Who's On Campus?</h1>
         </Link>
         <ul className="nav-links">
-          <li><Link to="/register" className='link-style'>Register</Link></li>
+          <li><Link to="/whos_on_campus/register" className='link-style'>Register</Link></li>
         </ul>
       </nav>
       <div className="login-container">
@@ -67,7 +67,7 @@ const LoginPage = () => {
             required
           />
           <button type="submit">Log In</button>
-          <p>Don't have an account? <Link to="/register">Register</Link></p>
+          <p>Don't have an account? <Link to="/whos_on_campus/register">Register</Link></p>
         </form>
       </div>
       <footer className="footer">

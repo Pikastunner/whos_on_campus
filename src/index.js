@@ -17,27 +17,27 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/input",
+    path: "/whos_on_campus/input",
     element: <InputPage />,
   },
   {
-    path: "/",
+    path: "/whos_on_campus",
     element: <LandingPage />,
   },
   {
-    path: "/home",
+    path: "/whos_on_campus/home",
     element: <HomePage />,
   },
   {
-    path: "/login",
+    path: "/whos_on_campus/login",
     element: <LoginPage />,
   },
   {
-    path: "/register",
+    path: "/whos_on_campus/register",
     element: <RegisterPage />,
   },
   {
-    path: "/profile",
+    path: "/whos_on_campus/profile",
     element: <ProfilePage />,
   },
 ]);

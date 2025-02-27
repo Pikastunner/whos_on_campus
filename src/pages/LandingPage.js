@@ -49,7 +49,7 @@ const HomePage = () => {
       <nav className="navbar">
       <h1 className="logo">Who's On Campus?</h1>
         <ul className="nav-links">
-          <li><Link to="/login">Log In</Link></li>
+          <li><Link to="/whos_on_campus/login">Log In</Link></li>
         </ul>
       </nav>
       {/* Page 1 */}
@@ -65,7 +65,7 @@ const HomePage = () => {
                 <div className="button-container">
                   <button className="button" onClick={handleExploreClick}>Explore</button>
                   <span className="button-gap" />
-                  <Link to="/" className="button">Rizz Tips</Link>
+                  <Link to="/whos_on_campus" className="button">Rizz Tips</Link>
                 </div>
               </span>
             </div>
@@ -89,7 +89,7 @@ const HomePage = () => {
           <MapExample/>
         </div>
         <div className="join-button-container">
-          <Link to="/register" className="button">Join us!</Link>
+          <Link to="/whos_on_campus/register" className="button">Join us!</Link>
         </div>
         <div className='scroll-top-container'>
           <li href="" className="scroll-top-button" onClick={scrollToTop}>

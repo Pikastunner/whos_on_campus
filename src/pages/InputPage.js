@@ -74,7 +74,7 @@ const InputPage = () => {
     };
 
     const handleHome = () => {
-        window.location.href = '../home';
+        window.location.href = '../whos_on_campus';
     }
     const handleAnswerChange = (selectedOptions) => {
         const the_answer = selectedOptions.map(option => option.value);
@@ -113,11 +113,11 @@ const InputPage = () => {
                 <title>About you | Who's On Campus?</title>
             </Helmet>
             <nav className="navbar">
-                <Link to='/'  style={{ textDecoration: 'none', color: '#fff' }}>
+                <Link to='/whos_on_campus'  style={{ textDecoration: 'none', color: '#fff' }}>
                 <h1 className="logo">Who's On Campus?</h1>
                 </Link>
                 <ul className="nav-links">
-                <li><Link to="/login">Logout</Link></li>
+                <li><Link to="/whos_on_campus/login">Logout</Link></li>
                 </ul>
             </nav>
                 {!submitted ? (

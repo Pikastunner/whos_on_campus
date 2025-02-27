@@ -46,7 +46,7 @@ const RegisterPage = () => {
     setPhoneNumber('');
     setAddress('');
     // Navigate to the input page
-    navigate('/input');
+    navigate('/whos_on_campus/input');
   };
 
   return (
@@ -55,12 +55,12 @@ const RegisterPage = () => {
         <title>Register | Who's On Campus?</title>
       </Helmet>
       <nav className="navbar">
-        <Link to="/" style={{ textDecoration: 'none', color: '#fff' }}>
+        <Link to="/whos_on_campus" style={{ textDecoration: 'none', color: '#fff' }}>
           <h1 className="logo">Who's On Campus?</h1>
         </Link>
         <ul className="nav-links">
           <li>
-            <Link to="/login">Log In</Link>
+            <Link to="/whos_on_campus/login">Log In</Link>
           </li>
         </ul>
       </nav>
@@ -105,7 +105,7 @@ const RegisterPage = () => {
           />
           <button type="submit">Register</button>
           <p>
-            Already have an account? <Link to="/login">Log In</Link>
+            Already have an account? <Link to="/whos_on_campus/login">Log In</Link>
           </p>
         </form>
       </div>

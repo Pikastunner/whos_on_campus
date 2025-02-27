@@ -26,7 +26,7 @@ const ProfilePage = () => {
 
   const navigate = useNavigate();
   const click = () => {
-    navigate('/home', { state: { user } });
+    navigate('/whos_on_campus/home', { state: { user } });
   }
 
   return (
@@ -35,14 +35,14 @@ const ProfilePage = () => {
         <title>Profile | Who's On Campus?</title>
       </Helmet>
       <nav className="navbar">
-        <Link to="/" style={{ textDecoration: 'none', color: '#fff' }}>
+        <Link to="/whos_on_campus" style={{ textDecoration: 'none', color: '#fff' }}>
           <h1 className="logo">Who's On Campus?</h1>
         </Link>
         <ul className="nav-links">
           <li>
           <a className='hoverable-link' onClick={click}>Home</a>
             </li>
-          <li><Link to="/login">Logout</Link></li>
+          <li><Link to="/whos_on_campus/login">Logout</Link></li>
         </ul>
       </nav>
       <div className="profile-container">
